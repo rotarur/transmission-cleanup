@@ -18,5 +18,5 @@ In order to use these scripts you need:
 ###How to run these scripts?
 
 In order to run these scripts you can choose one option:
-1) crontab: `echo "*/30 * * * * root python `readlink -f removedownloadedd.py`" >> /etc/crontab`
+1) crontab: `echo "*/30 * * * * root python \`readlink -f removedownloadedd.py\`" >> /etc/crontab`
 2) command line: python removedownloadedd.py
