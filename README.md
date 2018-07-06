@@ -1,6 +1,6 @@
 # What is Transmission-Cleanup ?
 
-Transmission-Cleanup is a repo with some short scripts written in Python, that removes completed torrents and those with and error re-adding them again, from a running instance of *Transmission* (more info at http://www.transmissionbt.com/). 
+Transmission-Cleanup is a repo with some short scripts written in Python, that removes completed torrents and those with an error re-adding them again, from a running instance of *Transmission* (more info at http://www.transmissionbt.com/). 
 
 ## Why did I created this repository ?  
 
