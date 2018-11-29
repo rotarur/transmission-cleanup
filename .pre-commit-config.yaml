@@ -1,0 +1,17 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v1.2.3
+  hooks:
+  - id: autopep8-wrapper
+    language_version: python
+  - id: fix-encoding-pragma
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v1.2.3
+  hooks:
+  - id: trailing-whitespace
+    language_version: python
+- repo: https://github.com/miki725/importanize
+  rev: 'master'
+  hooks:
+  - id: importanize
+    args: [--verbose]
