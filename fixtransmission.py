@@ -106,10 +106,9 @@ def sendEmail(msg):
 
 
 def main(config):
-    try:
-        with open(config) as json_data_file:
-            data = json.load(json_data_file)
-            print(data)
+    with open(config) as json_data_file:
+        data = json.load(json_data_file)
+        print(data)
 
     splitResult = listTorrents().split("\n")
 
