@@ -111,7 +111,7 @@ def main(config):
             data = json.load(json_data_file)
             print(data)
     except IOError as ioe:
-        print(ioe.message)
+        print(ioe)
 
     splitResult = listTorrents().split("\n")
 
